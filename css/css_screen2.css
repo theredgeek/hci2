@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+body{
+    background:#F1EAE1;
+    font-family: 'Poppins', sans-serif;
+    line-height:1.5;
+    font-weight:500;
+    font-size:15px;
+  } /* General */
+
+.Picture{
+    position: absolute;
+    width: 557px;
+    height: 524px;
+    left: 48px;
+    top: 51px;
+
+    background: url(Picture1.png);
+} /* pic of AI assistant */
+
+
+
+.Table__header{ /* Tickets table header*/
+ 
+    position: absolute;
+    width: 443px;
+    height: 54px;
+    left: 671px;
+    top: 85px;
+    margin: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #FF8755;
+}
+
+.Ticket__header{ /* Open ticket header ("Non-standard behavior") */
+    position: absolute;
+    width: 443px;
+    height: 54px;
+    left: 1206px;
+    top: 85px;
+    margin: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #FF8755;
+
+}
+
+
+
+/* ADD 1ST TABLE ROW DETAILS */
+
+.Table__text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 68px;
+    /*top: 91px;*/
+
+    color: #261013;
+}
+
+.Left{
+    top: 91px;
+    left: 28px;
+    margin-bottom: 68px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #261013;
+}
+
+.Right{
+    top: 91px;
+    left: 340px;
+    margin-bottom: 68px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #261013;
+}
+
+.Table__box{ /* ticket list table */
+    position: absolute;
+    width: 980px;
+    height: 617px;
+    left: 671px;
+    top: 139px;
+
+    background: #C3D4E8;
+    /*filter: blur(1.5px);*/
+    border-radius: 30px;
+    z-index: -1;
+}
+
+.Ticket__box{ /* opened ticket table */
+    position: absolute;
+    width: 805px;
+    height: 515px;
+    left: 1206px;
+    top: 139px;
+
+    background: #FFC2A0;
+    /*filter: blur(1.5px);*/
+    border-radius: 30px;
+    z-index: -1;
+}
+
+.AI__box{
+    position: absolute;
+    width: 1378px;
+    height: 82px;
+    left: 269px;
+    top: 850px;
+
+    background: #E3DDD4;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.AI__text{
+    transform: translateY(-60%);
+    position:absolute;
+    left: 22px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #261013;
+
+}
+
+.Subject{ /*"subject" ticket table header (blue)*/
+    position: absolute;
+    width: 134px;
+    height: 35px;
+    left: 28px;
+    top: 23px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #291115;
+}
+
+.Date{ /*"date" ticket table header (blue)*/
+    position: absolute;
+    width: 134px;
+    height: 35px;
+    left: 800px;
+    top: 23px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #291115;
+
+}
+
+.Behavior{
+    position: absolute;
+    width: 415px;
+    height: 38px;
+    left: 28px;
+    top: 91px;
+
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: #291115;
+}
+
+.Payments{
+    position: absolute;
+    width: 415px;
+    height: 38px;
+    left: 28px;
+    top: 197px;
+
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: #291115;
+}
+
+.Wrong{
+    position: absolute;
+    width: 415px;
+    height: 38px;
+    left: 28px;
+    top: 303px;
+
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: #291115;
+}
+
+.Payment{
+    position: absolute;
+    width: 415px;
+    height: 38px;
+    left: 28px;
+    top: 409px;
+
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: #291115;
+}
+
+.Details{
+    position: absolute;
+    width: 415px;
+    height: 38px;
+    left: 28px;
+    top: 515px;
+
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: #291115;
+}
+
+._1stDate{
+    position: absolute;
+    width: 154px;
+    height: 38px;
+    left: 800px;
+    top: 91px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: #291115;
+}
+
+._2ndDate{
+    position: absolute;
+    width: 154px;
+    height: 38px;
+    left: 800px;
+    top: 197px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: #291115;
+}
+
+._3rdDate{
+    position: absolute;
+    width: 154px;
+    height: 38px;
+    left: 800px;
+    top: 303px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: #291115;
+}
+
+._4thDate{
+    position: absolute;
+    width: 136px;
+    height: 38px;
+    left: 800px;
+    top: 409px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: #291115;
+}
+
+._5thDate{
+    position: absolute;
+    width: 136px;
+    height: 38px;
+    left: 800px;
+    top: 515px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #291115;
+    
+.home_button{
+    position: absolute;
+    width: 443px;
+    height: 54px;
+    left: 25px;
+    top: 15px;
+    margin: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 48px;
+    color: #FF8755;
+}
